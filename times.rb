@@ -1,5 +1,7 @@
-def using_times
-  7.times do
+num = 7
+
+def using_times(num)
+  num.times do
 	puts "Wingardium Leviosa"
 	end 
 end
